@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBCBF7D1-AF47-4A03-ABDB-5988AB09C1D8}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Samankidwani</RootNamespace>
+    <AssemblyName>Samankidwani</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="packages.config" />
+    <Content Include="index.html" />
+    <Content Include="ReadMore.html" />
+    <Content Include="portfolio-details.html" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\about-video.jpg" />
+    <Content Include="assets\img\apple-touch-icon.png" />
+    <Content Include="assets\img\hero-bg.jpg" />
+    <Content Include="assets\img\clients\client-1.png" />
+    <Content Include="assets\img\clients\client-2.png" />
+    <Content Include="assets\img\clients\client-3.png" />
+    <Content Include="assets\img\clients\client-4.png" />
+    <Content Include="assets\img\clients\client-5.png" />
+    <Content Include="assets\img\clients\client-6.png" />
+    <Content Include="assets\img\portfolio\portfolio-8.jpg" />
+    <Content Include="assets\img\team\team-1.jpg" />
+    <Content Include="assets\img\team\team-2.jpg" />
+    <Content Include="assets\img\team\team-3.jpg" />
+    <Content Include="assets\img\team\team-4.jpg" />
+    <Content Include="assets\img\testimonials\testimonials-1.jpg" />
+    <Content Include="assets\img\testimonials\testimonials-2.jpg" />
+    <Content Include="assets\img\testimonials\testimonials-3.jpg" />
+    <Content Include="assets\img\testimonials\testimonials-4.jpg" />
+    <Content Include="assets\img\testimonials\testimonials-5.jpg" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\vendor\aos\aos.css" />
+    <Content Include="assets\vendor\aos\aos.js" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\boxicons\css\animations.css" />
+    <Content Include="assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="assets\vendor\counterup\counterup.min.js" />
+    <Content Include="assets\vendor\icofont\icofont.min.css" />
+    <Content Include="assets\vendor\icofont\fonts\icofont.woff" />
+    <Content Include="assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Include="assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Include="assets\vendor\jquery\jquery.min.js" />
+    <Content Include="assets\vendor\jquery.easing\jquery.easing.min.js" />
+    <Content Include="assets\vendor\owl.carousel\owl.carousel.js" />
+    <Content Include="assets\vendor\owl.carousel\owl.carousel.min.js" />
+    <Content Include="assets\vendor\owl.carousel\assets\ajax-loader.gif" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.carousel.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.carousel.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.default.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.default.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.green.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.theme.green.min.css" />
+    <Content Include="assets\vendor\owl.carousel\assets\owl.video.play.png" />
+    <Content Include="assets\vendor\php-email-form\validate.js" />
+    <Content Include="assets\vendor\remixicon\remixicon.css" />
+    <Content Include="assets\vendor\remixicon\remixicon.eot" />
+    <Content Include="assets\vendor\remixicon\remixicon.less" />
+    <Content Include="assets\vendor\remixicon\remixicon.svg" />
+    <Content Include="assets\vendor\remixicon\remixicon.symbol.svg" />
+    <Content Include="assets\vendor\remixicon\remixicon.ttf" />
+    <Content Include="assets\vendor\remixicon\remixicon.woff" />
+    <Content Include="assets\vendor\venobox\venobox.css" />
+    <Content Include="assets\vendor\venobox\venobox.js" />
+    <Content Include="assets\vendor\venobox\venobox.min.css" />
+    <Content Include="assets\vendor\venobox\venobox.min.js" />
+    <Content Include="assets\vendor\waypoints\jquery.waypoints.min.js" />
+    <Content Include="assets\img\logo.jpg" />
+    <Content Include="assets\img\favicon1.png" />
+    <Content Include="assets\img\BecomAnArtist.png" />
+    <Content Include="assets\img\phiacademy.jpg" />
+    <Content Include="assets\img\banner.png" />
+    <Content Include="assets\img\instruments.PNG" />
+    <Content Include="assets\img\overlayimage.jpg" />
+    <Content Include="assets\img\Footer-Background.jpg" />
+    <Content Include="assets\img\Samanlogo.png" />
+    <Content Include="assets\img\goldborder.jpg" />
+    <Content Include="assets\img\portfolio\scar1.jpg" />
+    <Content Include="assets\img\portfolio\hyper.jpg" />
+    <Content Include="assets\img\portfolio\st.jpg" />
+    <Content Include="assets\img\portfolio\wrinkles.jpg" />
+    <Content Include="assets\img\portfolio\wrinkle2.jpg" />
+    <Content Include="assets\img\portfolio\dy.jpg" />
+    <Content Include="assets\img\portfolio\strechmark.jpg" />
+    <Content Include="assets\img\aboutus.jpg" />
+    <Content Include="Details.html" />
+    <Content Include="assets\img\client2.jpg" />
+    <Content Include="assets\client1-img.jpg" />
+    <Content Include="assets\img\client3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+    <None Include="changelog.txt" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <None Include="assets\vendor\icofont\fonts\icofont.woff2" />
+    <None Include="assets\vendor\jquery\jquery.min.map" />
+    <None Include="assets\vendor\owl.carousel\LICENSE" />
+    <None Include="assets\vendor\owl.carousel\README.md" />
+    <None Include="assets\vendor\remixicon\remixicon.woff2" />
+    <None Include="forms\Readme.txt" />
+    <None Include="forms\contact.php" />
+    <None Include="assets\img\video.mp4" />
+    <None Include="assets\certificate.pdf" />
+    <None Include="assets\img\portfolio\hyperpigmentation.jpeg" />
+    <None Include="assets\img\portfolio\scars.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

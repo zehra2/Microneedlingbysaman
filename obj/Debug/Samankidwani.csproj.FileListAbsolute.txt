@@ -1,0 +1,14 @@
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/Samankidwani.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/Samankidwani.pdb
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/Newtonsoft.Json.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Net.Http.Formatting.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Web.Http.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Web.Http.WebHost.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/Newtonsoft.Json.xml
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Net.Http.Formatting.xml
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Web.Http.xml
+/Users/Shaham/Projects/Samankidwani/Samankidwani/bin/System.Web.Http.WebHost.xml
+/Users/Shaham/Projects/Samankidwani/Samankidwani/obj/Debug/Samankidwani.csproj.CoreCompileInputs.cache
+/Users/Shaham/Projects/Samankidwani/Samankidwani/obj/Debug/Samankidwani.csproj.CopyComplete
+/Users/Shaham/Projects/Samankidwani/Samankidwani/obj/Debug/Samankidwani.dll
+/Users/Shaham/Projects/Samankidwani/Samankidwani/obj/Debug/Samankidwani.pdb
